@@ -9,6 +9,15 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.Navbar-text{
+ margin-right: 510px;
+color: white;
+font-size: larger;
+}
+
+.MyNav{
+  margin-right: 200px;
+}
 body {
   background-color: #f5f5f5;
   color: #4e4e4e;
@@ -499,14 +508,13 @@ a:hover {
 }
 
 .navbar>ul>li {
-  white-space: nowrap;
+  white-space: c;
   padding: 10px 0 10px 30px;
 }
-
 .navbar a,
 .navbar a:focus {
   display: flex;
-  align-items: center;
+  align-items:center;
   justify-content: space-between;
   color: #fff;
   font-size: 16px;
@@ -538,7 +546,9 @@ a:hover {
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
-
+.Offset {
+  nav-left: left;
+}
 .navbar a:hover:before,
 .navbar li:hover>a:before,
 .navbar .active:before {
